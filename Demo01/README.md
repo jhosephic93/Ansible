@@ -19,4 +19,5 @@ terraform apply -auto-approve
 
 2. Explicacion.
 
-- 
+- El manifiesto de Terraform (main.tf) en **provisioner "local-exec"** se ejecuta en mi local, llamando a ansible.yml, mismo que ejecuta los roles (carpeta roles/nginx/tasks)
+- Dato adicional cuando se ejecuta por segunda vez terraform apply, eliminar el Server EC2 y lo vuelve a crear.

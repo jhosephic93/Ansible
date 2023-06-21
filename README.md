@@ -1,5 +1,7 @@
 # Ansible
 
+- Ansible se usa para instalar y ejecutar scripts dentro de un server (instancia), por ejemplo apache, php, etc.
+
 | Característica                 | Ansible Tower                           | Ansible Engine                                    | Red Hat Ansible Automation Platform        |
 |--------------------------------|-----------------------------------------|---------------------------------------------------|--------------------------------------------|
 | Interfaz                       | Interfaz web                            | Línea de comandos                                 | Interfaz web y línea de comandos           |
